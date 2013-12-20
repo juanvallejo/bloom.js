@@ -15,6 +15,10 @@ var Alinova = {
 		var mainPanel = doc.getElementById("main-panel");
 		mainPanel.style.height = window.innerHeight+"px";
 		this.addResizeListener(mainPanel,'height');
+		var getStartedButton = doc.getElementById("getstarted");
+		getStartedButton.addEventListener('click',function() {
+			$('html,body').animate({scrollTop:$("#editorPanel").offset().top},1000);
+		});
 	}
 };
 window.Alinova = Alinova;
@@ -22,4 +26,5 @@ window.Alinova = Alinova;
 
 window.addEventListener('load',function() {
 	Alinova.init(document);
+	Bloom.colorize();
 });

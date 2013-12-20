@@ -1,0 +1,22 @@
+/*JavaScript theme*/
+.Bloom-js-type {
+color:rgb(153,170,173);
+}
+.Bloom-js-special {
+color:rgb(153,170,173);
+}
+.Bloom-js-green {
+color:rgb(153,173,156);
+}
+.Bloom-js-comment {
+color:rgb(127,127,127);
+}
+.Bloom-js-operator {
+color:rgb(173,153,160);
+}
+.Bloom-js-integer {
+color:rgb(128,111,138);
+}
+.Bloom-js-string {
+color:rgb(255,238,154);
+}
